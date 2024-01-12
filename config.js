@@ -5,6 +5,7 @@ module.exports = {
   urlMapping: {
     globalPrefix: "/blog",
     entries: {},
+    baseUrl: "https://www.theden.ai/",
   },
   props: {
     header: {
@@ -67,6 +68,9 @@ module.exports = {
       showSidePanel: false
     },
     content: {},
+    toc: {
+      show: false,
+    },
     footer: {
       logo: 'https://assets-global.website-files.com/6582e53622faa84165a9174f/6582eb16ed0b1cfa07fee730_Den%20AI%20Full%20Logo.svg',
       copyright: 'Den AI © 2024',
