@@ -26,7 +26,7 @@ export default function Banner(props) {
           left: 0,
           right: 0,
           height: props.height ? props.height : '95vh',
-          backgroundColor: props.config.theme.colors.primary,
+          backgroundColor: "#092635",
           zIndex: -10,
           borderBottomLeftRadius: '10px',
           borderBottomRightRadius: '10px'

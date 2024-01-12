@@ -58,14 +58,9 @@ module.exports = {
       ctas: [
         {
           type: 'secondary',
-          title: 'Start 14 days free trial',
-          url: 'https://app.sharefable.com/login',
+          title: 'Join the waitlist',
+          url: 'https://www.theden.ai/join-the-waitlist',
         },
-        {
-          type: 'primary',
-          title: 'Get a demo',
-          url: 'https://sharefable.com/get-a-demo',
-        }
       ]
     },
     sidepanel: {
@@ -73,44 +68,31 @@ module.exports = {
     },
     content: {},
     footer: {
-      logo: 'https://sharefable.com/fable_footer-logo.svg',
-      copyright: 'Fable © 2024',
+      logo: 'https://assets-global.website-files.com/6582e53622faa84165a9174f/6582eb16ed0b1cfa07fee730_Den%20AI%20Full%20Logo.svg',
+      copyright: 'Den AI © 2024',
       links: [
+        {
+          heading: 'Chatden',
+          links: [
+            { title: 'Product', url: 'https://www.theden.ai/chatden' },
+            { title: 'Pricing', url: 'https://www.theden.ai/pricing' },
+          ]
+        },
         {
           heading: 'Solutions',
           links: [
-            { title: 'Marketing', url: 'https://sharefable.com/solutions/marketing' },
-            { title: 'Sales', url: 'https://sharefable.com/solutions/sales' },
-            { title: 'Presales', url: 'https://sharefable.com/solutions/presales' },
-            { title: 'Partnerships', url: 'https://sharefable.com/solutions/partnerships' },
+            { title: 'Customer Support', url: 'https://www.theden.ai/solutions/customer-support' },
+            { title: 'Lead Generation', url: 'https://www.theden.ai/solutions/lead-generation' },
+            { title: 'e-Commerce', url: 'https://www.theden.ai/solutions/e-commerce' },
+            { title: 'Internal Wiki', url: 'https://www.theden.ai/solutions/internal-wiki' },
+            { title: 'HR Assistant', url: 'https://www.theden.ai/solutions/hr-assistant' },
+            { title: 'Academic Research', url: 'https://www.theden.ai/solutions/academic-research' }
           ]
         },
         {
           heading: 'Resources',
           links: [
-            { title: 'Fable Champs', url: 'https://sharefable.com/growth-stories' },
-            { title: 'Fable Untold', url: 'https://sharefable.com/podcast/mastering-b2b-demand-generation' },
-            { title: 'E-books', url: 'https://sharefable.com/ebooks' },
-            { title: 'Fable blog', url: 'https://sharefable.com/blog' },
-            { title: 'Privacy Policy', url: 'https://sharefable.com/privacy-policy' },
-          ]
-        },
-        {
-          heading: 'Company',
-          links: [
-            { title: 'LinkedIn', url: 'https://www.linkedin.com/company/sharefable/' },
-            { title: 'Twitter', url: 'https://twitter.com/sharefable' },
-          ]
-        },
-        {
-          heading: 'Competitors',
-          links: [
-            { title: 'Fable vs Navattic', url: 'https://sharefable.com/comparison/fable-vs-navattic' },
-            { title: 'Fable vs Demostack', url: 'https://sharefable.com/comparison/fable-vs-demostack' },
-            { title: 'Fable vs Reprise', url: 'https://sharefable.com/comparison/fable-vs-reprise' },
-            { title: 'Fable vs Walnut', url: 'https://sharefable.com/comparison/fable-vs-walnut' },
-            { title: 'Fable vs Storylane', url: 'https://sharefable.com/comparison/fable-vs-storylane' },
-            { title: 'Fable vs Testbox', url: 'https://sharefable.com/comparison/fable-vs-testbox' },
+            { title: 'Blog', url: 'https://www.theden.ai/blog' }
           ]
         },
       ]
@@ -118,8 +100,8 @@ module.exports = {
   },
   theme: {
     colors: {
-      primary: "#16023e",
-      textPrimary: "#ffffff",
+      primary: "#092635",
+      textPrimary: "#000",
       textSecondary: "#fff",
       textTertiary: "#713aff",
       backgroundPrimary: "#fff",

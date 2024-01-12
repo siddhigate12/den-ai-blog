@@ -7,7 +7,7 @@ export default function Promotion(props) {
       className='promotion-con'
       style={{
         maxWidth: '1200px',
-        backgroundColor: props.config.theme.colors.primary,
+        backgroundColor: "#092635",
         color: '#fff',
         padding: '5rem 2rem',
         borderRadius: '10px',

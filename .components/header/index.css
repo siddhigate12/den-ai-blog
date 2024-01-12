@@ -18,7 +18,7 @@ body.no-scroll {
 
 .header-link:hover {
   background-color: transparent;
-  color: #7567ff;
+  color: #9ec8b9;
 }
 
 .header-link::after {
@@ -46,7 +46,7 @@ body.no-scroll {
 }
 
 .cta-secondary {
-  color: #7567ff;
+  color: #fff;
   background-color: transparent;
   transition: all 0.3s ease-out;
 }
@@ -63,8 +63,8 @@ body.no-scroll {
 }
 
 .cta-secondary:hover {
-  color: #fff;
-  background-color: #7567ff;
+  color: #9ec8b9;
+  background-color: transparent;
 }
 
 .banner-title {

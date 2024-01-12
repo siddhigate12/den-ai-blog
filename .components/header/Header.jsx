@@ -36,7 +36,6 @@ const Header = (props) => {
           position: 'sticky',
           top: '0',
           zIndex: '4',
-          borderBottom: '1px solid #d0d0ff'
         }}
         className='header-con'
       >
@@ -66,7 +65,7 @@ const Header = (props) => {
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.7rem',
+                gap: '2rem',
                 fontSize: '0.9rem',
                 listStyleType: 'none',
                 padding: 0,
@@ -114,11 +113,11 @@ const Header = (props) => {
               return (
                 <a
                   style={{
-                    border: '2px solid #7567ff',
+                    border: '2px solid #9ec8b9',
                     transition: 'all .2s ease-out',
                     padding: '1rem 2rem',
                     font: 'inherit',
-                    borderRadius: '4rem',
+                    borderRadius: '8px',
                     fontSize: '1rem',
                     fontWeight: 500,
                   }}
@@ -174,7 +173,7 @@ const MenuItemMobile = (props) => {
             {props.item.title}
           </span>
           <img
-            src="https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/arrow-thin-chevron-bottom-icon.png"
+            src="https://github.com/sid-patri-fable/fable-blog/assets/117962421/ce8148a2-9141-43be-ba29-d04c908af25d"
             style={{
               height: '8px',
               marginLeft: '5px',
@@ -229,10 +228,12 @@ function Menu(props) {
       >
         {props.title}
         <img
-          src="https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/arrow-thin-chevron-bottom-icon.png"
+          src="https://github.com/sid-patri-fable/fable-blog/assets/117962421/ce8148a2-9141-43be-ba29-d04c908af25d"
           style={{
-            height: '8px',
+            width: '1rem',
+            height: '1rem',
             marginLeft: '5px',
+            marginTop: "5px",
             transform: `${showMenu ? 'rotate(180deg)' : 'rotate(0)'}`,
             transition: 'all 0.3s ease-out'
           }}
@@ -269,7 +270,7 @@ function Menu(props) {
           <div
             style={{
               flex: '0.6',
-              padding: '1rem 1.2rem'
+              padding: '1rem'
             }}
           >
             <ul

@@ -6,10 +6,10 @@ export default function PromotionBannerCta(props) {
       style={{
         fontWeight: '600',
         fontSize: '1rem',
-        background: '#713aff',
+        background: '#9ec8b9',
         border: 'none',
         padding: '12px 10px',
-        color: '#fff',
+        color: '#000',
         borderRadius: '6px',
         cursor: 'pointer',
         marginTop: '12px'
