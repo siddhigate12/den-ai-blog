@@ -7,6 +7,12 @@ module.exports = {
     entries: {},
     baseUrl: "https://www.theden.ai/",
   },
+  name: 'The Den AI Blog',
+  favicons: {
+    iconUrl: {
+      '16x16': 'https://www.theden.ai/images/favicon.svg'
+    }
+  },
   props: {
     header: {
       customComponent: Header,
@@ -24,27 +30,27 @@ module.exports = {
             sublinks: [
               {
                 title: 'Customer Support',
-                url: 'https://sharefable.com/solutions/marketing'
+                url: 'https://www.theden.ai/solutions/customer-support'
               },
               {
                 title: 'Lead Generation',
-                url: 'https://sharefable.com/solutions/sales'
+                url: 'https://www.theden.ai/solutions/lead-generation'
               },
               {
                 title: 'e-Commerce',
-                url: 'https://sharefable.com/solutions/presales'
+                url: 'https://www.theden.ai/solutions/e-commerce'
               },
               {
                 title: 'Internal Wiki',
-                url: 'https://sharefable.com/solutions/partnerships'
+                url: 'https://www.theden.ai/solutions/internal-wiki'
               },
               {
                 title: 'HR Assistant',
-                url: 'https://sharefable.com/solutions/partnerships'
+                url: 'https://www.theden.ai/solutions/hr-assistant'
               },
               {
                 title: 'Academic Research',
-                url: 'https://sharefable.com/solutions/partnerships'
+                url: 'https://www.theden.ai/solutions/academic-research'
               },
             ]
           },
