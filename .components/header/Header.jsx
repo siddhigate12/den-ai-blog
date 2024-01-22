@@ -88,7 +88,7 @@ const Header = (props) => {
                   <li className='header-link-con' key={idx}>
                     <a
                       className='header-link'
-                      href="#"
+                      href={link.url}
                     >
                       {link.title}
                     </a>
@@ -290,6 +290,7 @@ function Menu(props) {
                     style={{
                       margin: '0'
                     }}
+
                   >
                     <a
                       href={link.url}
