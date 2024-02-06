@@ -15,7 +15,7 @@ const CustomLayout = (props) => {
   } = props;
   const isBlogRoute = rgxBlogRoute.test(window.location.pathname);
 
-  if(!props.frontmatter) <>Frontmatter unavailable</>
+  if(!props.frontmatter) return <>Frontmatter unavailable</>
 
   return (
     <>
